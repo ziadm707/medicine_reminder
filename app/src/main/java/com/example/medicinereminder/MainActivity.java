@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         medicineArrayList.add(new MedicineModel("باى ألكوفان" , 5 , R.drawable.ic_launcher_background));
-        medicineArrayList.add(new MedicineModel("باى ألكوفان" , 6 , R.drawable.ic_launcher_background));
-        medicineArrayList.add(new MedicineModel("باى ألكوفان" , 7 , R.drawable.ic_launcher_background));
-        medicineArrayList.add(new MedicineModel("باى ألكوفان" , 8 , R.drawable.ic_launcher_background));
-        medicineArrayList.add(new MedicineModel("باى ألكوفان" , 9 , R.drawable.ic_launcher_background));
-        medicineArrayList.add(new MedicineModel("باى ألكوفان" , 10 , R.drawable.ic_launcher_background));
+        medicineArrayList.add(new MedicineModel("انتينال" , 6 , R.drawable.ic_launcher_background));
+        medicineArrayList.add(new MedicineModel("Maloks" , 7 , R.drawable.ic_launcher_background));
+        medicineArrayList.add(new MedicineModel("Coldfree" , 8 , R.drawable.ic_launcher_background));
+        medicineArrayList.add(new MedicineModel("ColdFlu" , 9 , R.drawable.ic_launcher_background));
+        medicineArrayList.add(new MedicineModel("panadol" , 10 , R.drawable.ic_launcher_background));
 
         mRecyclerView = findViewById(R.id.recyclerviewList) ;
       //  mRecyclerView.setHasFixedSize(true) ;

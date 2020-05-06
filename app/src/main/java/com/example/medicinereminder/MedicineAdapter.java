@@ -37,7 +37,7 @@ public class MedicineAdapter extends RecyclerView.Adapter<MedicineAdapter.Viewho
 
         MedicineModel currentItem = modelArrayList.get(position) ;
         holder.etxMedicineName.setText(currentItem.getMedicineName());
-        holder.etxMedicineDate.setText(currentItem.getMedicineDate());
+        holder.etxMedicineDate.setText(String.valueOf(currentItem.getMedicineDate()));
         holder.imgMedicine.setImageResource(currentItem.getMedicineImage());
         holder.imgDelete.setImageResource(R.drawable.ic_delete);
     }

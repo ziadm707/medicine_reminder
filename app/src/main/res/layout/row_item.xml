@@ -14,9 +14,10 @@
 
         <ImageView
             android:id="@+id/imgMedicine"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
+            android:layout_gravity="center_vertical"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <LinearLayout
@@ -43,9 +44,10 @@
         </LinearLayout>
         <ImageView
             android:id="@+id/imgDelete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
+            android:layout_gravity="center_vertical"
             app:srcCompat="@mipmap/ic_launcher_round" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
